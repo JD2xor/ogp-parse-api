@@ -141,5 +141,11 @@
 			"revisionTime": "2020-04-30T17:15:02Z"
 		}
 	],
-	"rootPath": "ogp-parse-api"
+	"rootPath": "ogp-parse-api",
+	"heroku": {
+		"install": [
+			"./..."
+		],
+		"goVersion": "go1.12.17"
+	}
 }
